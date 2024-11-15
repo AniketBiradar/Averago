@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Move vertically to the top while keeping the horizontal position centered -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="0%"
+        android:toYDelta="-40%" />
+
+    <!-- Scale down the elements slightly if needed -->
+    <scale
+        android:duration="800"
+        android:fromXScale="1.0"
+        android:toXScale="0.7"
+        android:fromYScale="1.0"
+        android:toYScale="0.7"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+</set>
